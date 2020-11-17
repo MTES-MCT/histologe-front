@@ -91,14 +91,14 @@ $mailS->isSMTP();
 //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 $mailS->SMTPDebug = SMTP::DEBUG_OFF;
 
-$mailS->Host = 'ns0.ovh.net';
-$mailS->Port = 587;
+$mailS->Host = '';
+$mailS->Port = ;
 $mailS->SMTPAuth = true;
-$mailS->Username = 'contact@histologe.info';
-$mailS->Password = 'Testeur64';
+$mailS->Username = '';
+$mailS->Password = '';
 
-$mailS->setFrom('contact@histologe.info', 'Histologe Signalement');
-$mailS->addReplyTo('contact@histologe.info', 'Histologe Signalement');
+$mailS->setFrom();
+$mailS->addReplyTo();
 $mailS->CharSet = 'UTF-8';
 
 //Set who the message is to be sent to
